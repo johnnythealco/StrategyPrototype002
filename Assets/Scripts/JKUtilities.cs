@@ -7,22 +7,59 @@ using System.Linq;
 public class JKUtilities
 {
 	
-	public static List<string> BaseTypes {
-		get {
+	public static List<string> BaseTypes = new List<string> {
+		"Resource",
+		"Structure",
+		"Character",
+		"Location",
+		"Item",
+		"Unit"
+	};
+		
 
-			var result = new List<string> (); 
+	public static List<string> ResourceTypes = new List<string> {
+		"Strategic",
+		"Comodity"
 
-			var values = Enum.GetValues (typeof(BaseType));
+	};
 
-			foreach (var item in values)
-			{ 
-				result.Add (item.ToString ());
-			} 
+	public static List<string> StructureTypes = new List<string> {
+		"Planetary",
+		"Orbit",
+		"Space"
 
-			return result;
-		}
+	};
 
-	}
+	public static List<string> CharacterTypes = new List<string> {
+		"Playable",
+		"Non-Playable"
+
+	};
+
+	public static List<string> LocationTypes = new List<string> {
+		"Planetary",
+		"Orbit",
+		"Space"
+	};
+
+	public static List<string> ItemTypes = new List<string> {
+		"Strategic",
+		"Comodity"
+
+	};
+
+	public static List<string> UnitTypes = new List<string> {
+		"Fighter",
+		"Bomber",
+		"Frigate"
+
+	};
+
+
+
+
+
+
 
 
 

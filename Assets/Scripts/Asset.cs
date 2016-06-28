@@ -8,9 +8,9 @@ public class Asset : System.Object
 {
 	public string name;
 	public string description;
-	public BaseType baseType;
+	public string baseType;
 
-	public Asset (string _name, string _description, BaseType _baseType)
+	public Asset (string _name, string _description, string _baseType)
 	{
 		this.name = _name;
 		this.description = _description;
@@ -32,4 +32,41 @@ public enum BaseType
 	Unit = 5
 
 
+}
+
+public enum ResourceType
+{
+	Strategic = 0,
+	Commodity = 1
+
+}
+
+public enum StructureType
+{
+	Planetary = 0,
+	Space = 1
+}
+
+public enum CharacterType
+{
+	Playable = 0,
+	NonPlayable = 1
+}
+
+public enum LocationType
+{
+	Planetary = 0,
+	Space = 1
+}
+
+public enum ItemType
+{
+	Strategic = 0,
+	Commodity = 1
+}
+
+public enum UnitType
+{
+	Ground = 0,
+	Space = 1
 }
