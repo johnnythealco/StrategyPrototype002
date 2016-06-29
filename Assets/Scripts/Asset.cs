@@ -17,56 +17,53 @@ public class Asset : System.Object
 		this.baseType = _baseType;
 	}
 
-
-
-
 }
-
-public enum BaseType
-{
-	Resource = 0,
-	Structure = 1,
-	Character = 2,
-	Location = 3,
-	Item = 4,
-	Unit = 5
-
-
-}
-
-public enum ResourceType
-{
-	Strategic = 0,
-	Commodity = 1
-
-}
-
-public enum StructureType
-{
-	Planetary = 0,
-	Space = 1
-}
-
-public enum CharacterType
-{
-	Playable = 0,
-	NonPlayable = 1
-}
-
-public enum LocationType
-{
-	Planetary = 0,
-	Space = 1
-}
-
-public enum ItemType
-{
-	Strategic = 0,
-	Commodity = 1
-}
-
-public enum UnitType
-{
-	Ground = 0,
-	Space = 1
-}
+//
+//public enum BaseType
+//{
+//	Resource = 0,
+//	Structure = 1,
+//	Character = 2,
+//	Location = 3,
+//	Item = 4,
+//	Unit = 5
+//
+//
+//}
+//
+//public enum ResourceType
+//{
+//	Strategic = 0,
+//	Commodity = 1
+//
+//}
+//
+//public enum StructureType
+//{
+//	Planetary = 0,
+//	Space = 1
+//}
+//
+//public enum CharacterType
+//{
+//	Playable = 0,
+//	NonPlayable = 1
+//}
+//
+//public enum LocationType
+//{
+//	Planetary = 0,
+//	Space = 1
+//}
+//
+//public enum ItemType
+//{
+//	Strategic = 0,
+//	Commodity = 1
+//}
+//
+//public enum UnitType
+//{
+//	Ground = 0,
+//	Space = 1
+//}

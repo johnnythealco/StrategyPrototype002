@@ -90,6 +90,11 @@ public class GameAssetInput : MonoBehaviour
 		}
 	}
 
+	public void SaveAssetList ()
+	{
+		Game.Manager.SaveAssetList ();
+	}
+
 	
 
 
